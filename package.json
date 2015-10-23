@@ -1,0 +1,36 @@
+{
+  "name": "oxr-to-linear-presets",
+  "version": "0.0.0",
+  "description": "Transform open exchange rates API response to linear presets format.",
+  "main": "src/oxr-to-linear-presets.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javiercejudo/oxr-to-linear-presets"
+  },
+  "keywords": [
+    "all",
+    "array",
+    "every"
+  ],
+  "author": "Javier Cejudo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/javiercejudo/oxr-to-linear-presets/issues"
+  },
+  "homepage": "https://github.com/javiercejudo/oxr-to-linear-presets",
+  "devDependencies": {
+    "arbitrary-precision": "^1.1.1",
+    "floating-adapter": "^1.2.0",
+    "gulp": "3.9.0",
+    "gulp-coveralls": "0.1.4",
+    "gulp-istanbul": "0.10.2",
+    "gulp-mocha": "2.1.3",
+    "linear-converter": "^7.0.2",
+    "linear-preset-any-to-any": "^3.0.2",
+    "rimraf": "2.4.3",
+    "should": "7.1.1"
+  }
+}
