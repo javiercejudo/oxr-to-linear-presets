@@ -14,6 +14,8 @@ Transform [open exchange rates API response](https://openexchangerates.org/docum
 
 See the [tested example](test/example.js) or check the [live Tonic notebook](https://tonicdev.com/javiercejudo/oxr-to-linear-presets/2.0.0).
 
+It also works with [fixer.io](http://fixer.io/) out of the box ([live example](https://tonicdev.com/javiercejudo/currency-linear-presets)).
+
 ### Node.js
 
 ```js
