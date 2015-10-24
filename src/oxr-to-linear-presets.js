@@ -3,6 +3,8 @@
 'use strict';
 
 module.exports = function transform(rates, base) {
+  rates[base] = 1;
+
   return {
     base: base,
     conversions: singlesToPreset(rates)
