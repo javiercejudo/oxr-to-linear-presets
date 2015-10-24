@@ -12,7 +12,7 @@ Transform [open exchange rates API response](https://openexchangerates.org/docum
 
 ## Usage
 
-See [tested example](test/example.js).
+See the [tested example](test/example.js) or check the [live Tonic notebook](https://tonicdev.com/javiercejudo/oxr-to-linear-presets/2.0.0).
 
 ### Node.js
 
