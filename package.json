@@ -1,6 +1,6 @@
 {
   "name": "oxr-to-linear-presets",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Transform open exchange rates API response to linear presets format",
   "main": "src/oxr-to-linear-presets.js",
   "scripts": {
