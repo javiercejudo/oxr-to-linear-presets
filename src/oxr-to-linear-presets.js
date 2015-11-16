@@ -2,6 +2,8 @@
 
 'use strict';
 
+var unitScale = require('unit-scale');
+
 module.exports = function transform(rates, base) {
   rates[base] = 1;
 
@@ -13,7 +15,7 @@ module.exports = function transform(rates, base) {
 
 function singlesToPreset(singles) {
   return Object.keys(singles).reduce(function(result, key) {
-    result[key] = [[0, 1], [0, singles[key]]];
+    result[key] = [unitScale, [0, singles[key]]];
 
     return result;
   }, {});
